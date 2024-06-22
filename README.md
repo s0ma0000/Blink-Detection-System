@@ -1,6 +1,5 @@
-
-![image](https://github.com/s0ma0000/Blink-Detection-System/tree/main/image/figure1.png)
-![image](https://github.com/s0ma0000/Blink-Detection-System/tree/main/image/figure2.png)
+![Example Image]((https://github.com/s0ma0000/Blink-Detection-System/tree/main/image/figure1.png) "This is an example image1")
+![Example Image]((https://github.com/s0ma0000/Blink-Detection-System/tree/main/image/figure2.png) "This is an example image2")
 
 # Blink-Detection-System
 Real-time detection of facial landmarks from camera images, especially tracking eye movements to detect and count blinks.
