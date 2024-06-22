@@ -1,5 +1,7 @@
-<img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure1.png" width="400" height="250">
-<img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure2.png" width="400" height="250">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure1.png" width="400" height="250">
+  <img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure2.png" width="400" height="250">
+</p>
 
 # Blink-Detection-System
 Real-time detection of facial landmarks from camera images, especially tracking eye movements to detect and count blinks.
