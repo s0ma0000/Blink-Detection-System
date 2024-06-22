@@ -2,6 +2,10 @@
 
 Real-time detection of facial landmarks from camera images, especially tracking eye movements to detect and count blinks.
 
+![gif](https://github.com/s0ma0000/Blink-Detection-System/edit/main/)
+![gif](https://github.com/s0ma0000/Blink-Detection-System/edit/main/)
+
+
 ## Overview
 
 This project uses a combination of OpenCV and MediaPipe to analyze real-time video from a camera, detect facial landmarks, and monitor blink frequency using eye landmarks in particular. This system can be used to measure eye fatigue and concentration.
