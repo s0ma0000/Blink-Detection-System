@@ -1,7 +1,12 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure1.png" width="400" height="250">
   <img src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/image/figure2.png" width="400" height="250">
+  <video width="800" height="450" controls>
+    <source src="https://raw.githubusercontent.com/s0ma0000/Blink-Detection-System/main/movie1.mp4" type="video/mp4">
+    お使いのブラウザは動画タグをサポートしていません。
+  </video>
 </p>
+
 
 # Blink-Detection-System
 Real-time detection of facial landmarks from camera images, especially tracking eye movements to detect and count blinks.
