@@ -32,15 +32,16 @@ This project uses a combination of OpenCV and MediaPipe to analyze real-time vid
 
 The Fourier transform is a mathematical technique used to transform a signal from its original time domain into the frequency domain. In this project, the Fourier transform is used to analyze the frequency components of the iris position over time, which can reveal periodic patterns in eye movements.
 
-### Mathematical Expression
+## Mathematical Expression
 
-Given a discrete time series \( x[n] \), the Discrete Fourier Transform (DFT) is defined as:
+Given a discrete time series \( x[n] \), the Discrete Fourier Transform (DFT) is defined as follows:
 
-\[
-X[k] = \sum_{n=0}^{N-1} x[n] \cdot e^{-j \frac{2\pi}{N} k n}
-\]
+$$
+X[k] = \sum_{n=0}^{N-1} x[n] \cdot e^{-j \frac{2\pi}{N} kn}
+$$
 
 Where:
+
 - \( X[k] \) is the frequency domain representation at frequency bin \( k \),
 - \( x[n] \) is the time-domain signal at sample \( n \),
 - \( N \) is the total number of samples,
@@ -48,9 +49,10 @@ Where:
 
 The inverse Fourier transform, which transforms the frequency domain signal back into the time domain, is given by:
 
-\[
-x[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{j \frac{2\pi}{N} k n}
-\]
+$$
+x[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{j \frac{2\pi}{N} kn}
+$$
+
 
 ### Application in the Project
 
