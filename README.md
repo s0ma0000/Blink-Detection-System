@@ -66,6 +66,16 @@ After performing the Fourier transform, the resulting frequency components \( X[
 
 The frequency components are visualized in a plot, where the x-axis represents the frequency and the y-axis represents the amplitude. This visualization helps in identifying dominant frequencies, which can provide insights into periodic eye movements, such as saccades or fixations.
 
+## Author
+
+[twitter](https://twitter.com/kakedasiseinen)
+
+## 🐶 Contribution
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+
+
 ### Code Implementation
 
 Here is a snippet of the code where the Fourier transform is applied:
@@ -82,12 +92,3 @@ left_fft_half = np.abs(left_fft)[:N//2]
 
 ax_iris_fft.plot(freq_half, right_fft_half, label='Right Iris FFT')
 ax_iris_fft.plot(freq_half, left_fft_half, label='Left Iris FFT')
-\```python
-
-## Author
-
-[twitter](https://twitter.com/kakedasiseinen)
-
-## 🐶 Contribution
-
-Contributions are welcome! Please open an issue or submit a pull request.
