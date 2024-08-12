@@ -83,8 +83,6 @@ left_fft_half = np.abs(left_fft)[:N//2]
 ax_iris_fft.plot(freq_half, right_fft_half, label='Right Iris FFT')
 ax_iris_fft.plot(freq_half, left_fft_half, label='Left Iris FFT')
 
-```python
-
 ## Author
 
 [twitter](https://twitter.com/kakedasiseinen)
